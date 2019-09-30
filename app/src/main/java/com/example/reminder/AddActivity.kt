@@ -20,7 +20,7 @@ class AddActivity : AppCompatActivity() {
         setContentView(R.layout.activity_add)
         setSupportActionBar(toolbar)
 
-        fab.setOnClickListener { view ->
+        fab.setOnClickListener {
             onSaveClick()
         }
     }
